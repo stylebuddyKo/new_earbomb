@@ -1,0 +1,18 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.index-container {
+    max-width: 1920px ;
+    min-width: 360px;
+    /*background-color: #1e7e34;*/
+}
+/*在google瀏覽器中button點擊後出現的藍框 由於瀏覽器特性關係需使用button:focus{outline:none}才能消除藍框線*/
+button:focus{
+    outline: none ;
+}
+h1,h2,p{
+    margin: 0;
+    padding: 0;
+}

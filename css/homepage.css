@@ -1,0 +1,294 @@
+/*開頭倪哥*/
+.hero_section {
+    position:relative;
+    width:100%;
+}
+.title{
+    float:left;
+    color: #0288d1;
+    /*background-color: #721c24;*/
+    position: absolute;
+    top:30%;
+    left:10%;
+}
+.title h1{
+    font-size: 82px;
+    font-weight: bold;
+}
+.title p{
+    font-size: 30px;
+}
+@media screen and (max-width: 1500px) and (min-width: 1300px) {
+    .title h1{
+        font-size: 70px;
+    }
+}
+@media screen and (max-width: 1299px) and (min-width: 1000px) {
+    .title h1{
+        font-size: 58px;
+    }
+    .title p{
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 999px) and (min-width: 700px){
+    .title h1{
+        font-size: 42px;
+    }
+    .title p{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 699px) and (min-width: 480px){
+    .title h1{
+        font-size: 28px;
+    }
+    .title p{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 479px) and (min-width: 100px) {
+    .title{
+        left:5%;
+    }
+    .title h1{
+        font-size: 28px;
+    }
+    .title p{
+        font-size: 12px;
+    }
+}
+.hero_section img{
+    height: auto;
+    max-width: 100%;
+}
+/*產品介紹*/
+.product-intro{
+    display: flex;
+    width: 100%;
+    /*background-color: #721c24;*/
+    justify-content: space-between;
+
+}
+.product-pic1{
+    width: 50%;
+}
+.product-pic1 img{
+    padding-top: 5%;
+    padding-left: 8%;
+    padding-bottom: 8%;
+    height: auto;
+    max-width: 100%;
+}
+.product-text{
+    color: #0288d1;
+    width: 50%;
+    /*background-color: #28a745;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 360px) {
+    .product-text{
+        padding-right: 5%;
+    }
+}
+.product-text h2{
+    font-size: 60px;
+}
+@media screen and (max-width: 1400px) and (min-width: 1300px){
+    .product-text h2{
+        font-size: 48px;
+    }
+}
+@media screen and (max-width: 1299px) and (min-width: 900px){
+    .product-text h2{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 899px) and (min-width: 700px){
+    .product-text h2{
+        font-size: 32px;
+    }
+}
+@media screen and (max-width: 699px) and (min-width: 400px){
+    .product-text h2{
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 399px){
+    .product-text h2{
+        font-size: 18px;
+    }
+}
+.product-text p{
+    margin: 20px 0;
+    font-size: 32px;
+}
+@media screen and (max-width: 1400px) and (min-width: 1300px){
+    .product-text p{
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 1299px) and (min-width: 900px){
+    .product-text p{
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 899px) and (min-width: 700px){
+    .product-text p{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 699px){
+    .product-text p{
+        margin: 10px 0;
+        font-size: 16px;
+    }
+}
+.product-text a{
+    display: block;
+    border:2px solid;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+@media screen and (max-width: 699px) {
+    .product-text a{
+        font-size: 16px;
+        padding: 5px;
+        margin-top: 20px;
+    }
+}
+.product-text a:hover{
+    color: #f4f4f4;
+    background-color: #007bff;
+}
+/*產品選擇*/
+.product-choice{
+    width: 100%;
+    position: relative;
+}
+.choice-text{
+    float: left;
+    position: absolute;
+    top:25%;
+    left: 5%;
+}
+.product-choice>img{
+    height: auto;
+    max-width: 100%;
+}
+.choice-text{
+    /*background-color: #bd2130;*/
+}
+.choice-text h2{
+    font-size: 60px;
+    color: #fdfdfe;
+    margin-bottom: 30%;
+}
+@media screen and (max-width: 1300px) and (min-width: 1200px) {
+    .choice-text h2{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 1199px) and (min-width: 900px) {
+    .choice-text h2{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 899px) and (min-width: 700px) {
+    .choice-text h2{
+        font-size: 32px;
+    }
+}
+@media screen and (max-width: 699px) and (min-width: 360px){
+    .choice-text h2{
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 360px){
+    .choice-text h2{
+        font-size: 18px;
+    }
+}
+.choice-text a{
+    display: block;
+    color: #fdfdfe;
+    border:2px solid;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bolder;
+    padding: 10px;
+}
+@media screen and (max-width: 699px) and (min-width: 360px){
+    .choice-text a{
+        font-size: 16px;
+        padding: 5px;
+    }
+}
+@media screen and (max-width: 360px){
+    .choice-text a{
+        font-size: 14px;
+        padding: 2px;
+    }
+}
+.choice-text a:hover{
+    background-color: #fdfdfe;
+    color: #2e3133;
+    border: none;
+}
+/*網站優勢*/
+.web-feature{
+    position: relative;
+    width: 100%;
+}
+.web-feature img{
+    width: 100%;
+    height: auto;
+}
+.web-feature h2{
+    float: left;
+    position: absolute;
+    top:25%;
+    left: 5%;
+    color: #fdfdfe;
+    font-size: 60px;
+    line-height: inherit;
+    letter-spacing: 5px;
+}
+@media screen and (max-width: 1200px) and (min-width: 1000px){
+    .web-feature h2{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 999px) and (min-width: 700px){
+    .web-feature h2{
+        font-size: 38px;
+    }
+}
+@media screen and (max-width: 699px) and (min-width: 500px){
+    .web-feature h2{
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+}
+@media screen and (max-width: 499px) and (min-width: 360px){
+    .web-feature h2{
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+}
+@media screen and (max-width: 359px) {
+    .web-feature h2{
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+}
+
